@@ -19,7 +19,7 @@ You can install this via GitHub through terminal or Bash. You need to set up you
 Please see below an example of the code used within the repository. You can download the full codebase within the 'starter' folder. 
 
     ```md
-    ![code screenshot](starter/images/screenshot.png)
+    ![code screenshot](starter/screenshot.png)
     ```
 ## Credits
 
