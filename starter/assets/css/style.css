@@ -10,6 +10,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Body background colour */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -42,6 +44,8 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Header, Nav and H1 colours, formatting and display settings */
 
 /* Added nav to the above elements to help with accessabiity */
 
@@ -78,6 +82,36 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* combined all the nav and shared styles to save code and improve accesability */
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* combined together all the services img tags */
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* combined together all the services h2 tags */
 
 .benefits,
 .benefit-lead,
@@ -118,37 +152,9 @@ p {
     max-width: 150px;
 }
 
+/* Benefits section formatting, font, colours and alignment */
+
 /* consolidated all the code above to improve accessability and minimise the code. */
-
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* combined all the nav and shared styles to save code and improve accesability */
-
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* combined together all the services img tags */
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* combined together all the services h2 tags */
 
 .footer {
     padding: 30px;
@@ -160,3 +166,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* Footer section font, padding and alignment */
